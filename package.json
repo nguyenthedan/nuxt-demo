@@ -1,0 +1,22 @@
+{
+  "name": "sample-blog",
+  "version": "1.0.0",
+  "description": "A sample blog using Nuxt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "author": "Jessie Barnett",
+  "license": "MIT",
+  "dependencies": {
+    "frontmatter-markdown-loader": "^3.6.0",
+    "nuxt": "^2.14.5",
+    "nuxt-jsonld": "^1.5.0"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
